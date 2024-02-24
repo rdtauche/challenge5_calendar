@@ -31,7 +31,7 @@ THEN the saved events persist
     1. My Github Repo:  https://github.com/rdtauche/challenge5_calendar
     2. My Pages Deploy: https://rdtauche.github.io/challenge5_calendar/
     3. Screenshot of my live pages site:
-.
+![image](https://github.com/rdtauche/challenge5_calendar/assets/57552771/2d3eb72a-3320-429b-b61d-ff1a83def7ed)
 
 
 ## Usage
