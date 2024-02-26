@@ -22,21 +22,21 @@
         $(this).removeClass('future');
         $(this).addClass('past');
       }
-
-      else if (hourDay === currentTime) {
+// corrected this to have 2 equal signs instead of 3
+      else if (hourDay == currentTime) {
         $(this).removeClass('future');
         $(this).removeClass('past');
         $(this).addClass('present');
       }
-
+      
       else {
         $(this).removeClass('present');
         $(this).removeClass('past');
         $(this).addClass('future');
       }
-      })
+    })
   } 
-
+  
   // Ross: Added code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. 
   $('#hour9 .description').val(localStorage.getItem('hour9'));
@@ -48,5 +48,8 @@
   $('#hour15 .description').val(localStorage.getItem('hour15'));
   $('#hour16 .description').val(localStorage.getItem('hour16'));
   $('#hour17 .description').val(localStorage.getItem('hour17'));
-
+  
   timeTracker();
+  
+  console.log(typeof "hourDay");
+  console.log(typeof "currentTime");
